@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-config-airbnb",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "max-line-length": [true, 130],
+    "import-sources-order": ["case-insensitive"],
+    "prefer-array-literal": [false],
+    "object-shorthand-properties-first": [false]
+  }
+}
